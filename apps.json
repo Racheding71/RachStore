@@ -1,0 +1,22 @@
+{
+  "applications": [
+    {
+      "title": "RachBrowser",
+      "category": "Interne",
+      "desc": "Navigateur web rapide développé pour RachOS.",
+      "version": "1.0",
+      "size": 12,
+      "type": "launch",
+      "cmd": "python3 RachBrowser/rachbrowser.py"
+    },
+    {
+      "title": "Visual Studio Code",
+      "category": "Flatpak",
+      "desc": "Éditeur de code polyvalent pour développeurs.",
+      "version": "Stable",
+      "size": 110,
+      "type": "install",
+      "cmd": "flatpak install -y flathub com.visualstudio.code"
+    }
+  ]
+}
